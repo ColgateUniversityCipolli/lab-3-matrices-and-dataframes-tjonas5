@@ -118,10 +118,21 @@ Let's transform $\mathbf{M}$ to demonstrate an interesting linear algebra proper
 ## Part a
 Create the matrix `A` in `R`.
 $$\mathbf{A} = \begin{bmatrix} 1 & -7 \\ 5 & 9 \end{bmatrix}$$
+**Solution**
+```{r}
+data=c(1, -7, 5, 9)
+(A = matrix(data, nrow=2, ncol=2, byrow=TRUE))
+
+```
 
 ## Part b
 Compute the product below in `R` and store it in an object `T`.
 $$\mathbf{T} = \mathbf{A}\mathbf{M}.$$
+**Solution**
+```{r}
+
+
+```
 
 ## Part c
 Create `basis.vector.1` (first column of `T`) and `basis.vector.2` (second column of `T`) in `R`.
